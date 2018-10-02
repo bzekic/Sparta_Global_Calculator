@@ -6,7 +6,7 @@
     var choice = prompt('Choose your action (a)dd (s)ubtract (m)ultiply (d)ivide') || "a";
 
 
-// // //option 1
+// // Option 1
 // if (choice == "s") {
 //   alert(value1-value2);
 // } else if (choice == "m") {
@@ -17,7 +17,7 @@
 //     alert(value1+value2);
 // }
 
-// //option 2
+// // Option 2
 // if (choice == "s") {
 //   alert("the difference is " + (value1-value2));
 // } else if (choice == "m") {
@@ -28,7 +28,7 @@
 //     alert("the sum is " + (value1+value2));
 // }
 
-// //option 3
+// // Option 3
 // if (choice == "s") {
 //   console.log(value1- value2);
 // } else if (choice == "m") {
@@ -39,11 +39,11 @@
 //   console.log(value1+ value2);
 // }
 
-
-//option 4
+// Option 4
 switch (choice) {
   case "a":
-  alert (value1 + value2);
+  var result = parseInt(value1) + parseInt(value2)
+    alert (result)
   break;
   case "s":
   alert (value1 - value2);
@@ -55,8 +55,6 @@ switch (choice) {
   alert (value1 / value2)
   break;
   default:
-    alert (value1 + value2)
+  var result = parseInt(value1) + parseInt(value2)
+    alert (result)
 }
-
-// var myArray = [0,0]
-// console.log(myArray[0]+);
